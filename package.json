@@ -1,0 +1,41 @@
+{
+  "name": "r3f-demo-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
+    "directed": "github:pmndrs/directed#v0.0.1-alpha.5",
+    "koota": "^0.0.4",
+    "leva": "^0.9.31",
+    "rc-collapse": "^3.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0",
+    "three-stdlib": "^2.33.0",
+    "valtio": "^2.0.0",
+    "yuka": "^0.7.8",
+    "@number-flow/react": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.169.0",
+    "@types/workerpool": "^6.1.1",
+    "@types/yuka": "^0.7.4",
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.16",
+    "sass": "^1.55.0",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^5.4.9"
+  }
+}
